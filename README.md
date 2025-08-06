@@ -1,7 +1,7 @@
-**What’s OpenShot?**  
+## What’s OpenShot? 
 OpenShot Video Editor is like your friendly, free video-editing buddy! It’s an open-source program that works on Linux, Mac, Windows, and ChromeOS, perfect for beginners or pros. Started in 2008 by Jonathan Thomas, it’s got a drag-and-drop vibe, supports tons of video/audio formats, and leaves no watermarks. Whether you’re editing a YouTube vlog or a family video, OpenShot makes it easy and fun!
 
-**Key Features of OpenShot**  
+### Key Features of OpenShot  
 - **Cross-Platform**: Works on Linux, Windows, macOS, ChromeOS; projects transfer easily.  
 - **Format Friendly**: Handles most video, audio, image formats (MP4, MP3, etc.).  
 - **Cool Timeline**: Drag, drop, trim, rotate, or layer clips with zooming and snapping.  
