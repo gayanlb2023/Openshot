@@ -25,7 +25,7 @@ OpenShot Video Editor is like your friendly, free video-editing buddy! It’s an
 ### Download OpenShot
 Get started by downloading OpenShot for free from the official website: www.openshot.org/download/. Select your operating system (Windows, Mac, Linux, or ChromeOS), choose the appropriate 32-bit or 64-bit version, and follow the installation instructions.
 
-1. [Add Video]()
+1. [Add Video](https://github.com/gayanlb2023/Openshot/blob/main/add-video.md)
 2. [Edit Video]()
 3. [Add Effects to Video]()
 4. [Add Subtitles]()
