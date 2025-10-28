@@ -1,27 +1,46 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% include head.html %}
-  </head>
-  <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">{{ site.title }}</span>
-          <div class="mdl-layout-spacer"></div>
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Homepage</a>
-            <a class="mdl-navigation__link" href="/Openshot/User-interface.html">UI Overview</a>
-          </nav>
-        </div>
-      </header>
-      <main class="mdl-layout__content">
-        <div class="page-content">
-          {{ content }}
-        </div>
-      </main>
+<nav class="mdl-navigation">
+  <!-- Homepage -->
+  <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Homepage</a>
+
+  <!-- UI Overview Dropdown -->
+  <div class="mdl-navigation__link dropdown" style="position:relative; display:inline-block; cursor:pointer;">
+    UI Overview
+    <div class="dropdown-menu" style="position:absolute; top:100%; left:0; background:#fff; border:1px solid #ddd; min-width:220px; box-shadow:0 4px 8px rgba(0,0,0,0.15); display:none; z-index:100; border-radius:4px;">
+      <a href="{{ site.baseurl }}/User-interface.html" style="display:block; padding:0.75rem 1rem; color:#333; text-decoration:none; border-bottom:1px solid #eee;">
+        Main UI Overview
+      </a>
+      <a href="{{ site.baseurl }}/01.html" style="display:block; padding:0.75rem 1rem; color:#333; text-decoration:none;">
+        01 – Getting Started
+      </a>
+      <!-- Add more sub-pages here -->
     </div>
-  </body>
-</html>
+  </div>
+</nav>
+
+<script>
+// Click to open/close dropdown (works on mobile too)
+document.querySelectorAll('.dropdown').forEach(dropdown => {
+  dropdown.addEventListener('click', function(e) {
+    const menu = this.querySelector('.dropdown-menu');
+    const isOpen = menu.style.display === 'block';
+    
+    // Close all others
+    document.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
+    
+    // Toggle this one
+    menu.style.display = isOpen ? 'none' : 'block';
+    e.stopPropagation();
+  });
+});
+
+// Close when clicking outside
+document.addEventListener('click', () => {
+  document.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
+});
+</script>
+
+<style>
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+</style>
