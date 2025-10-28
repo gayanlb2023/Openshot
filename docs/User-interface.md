@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 2. User Interface Overview - OpenShot Guide
-permalink: /user-interface-overview/  # Custom URL slug
+title: 2. User Interface Overview
+permalink: /user-interface-overview/
 ---
 
 # 2. User Interface Overview
@@ -21,6 +21,6 @@ Once you launch **OpenShot**, here's what you'll see:
 | **Filter**            | Use the buttons and filter box to search project files, transitions, effects, or emojis. Type a few letters to see matching results |
 | **Playback** (Left to Right) | Jump to Start, Rewind, Play/Pause, Fast Forward, and Jump to End |
 
-*(Note: Based on OpenShot 3.2+ as of 2025. For full details, see the [official docs](https://www.openshot.org/user-guide/).)*
+---
 
-<!-- Add more sections here, e.g., images: ![Screenshot](assets/openshot-ui.png) -->
+*Tip: OpenShot 3.2+ as of 2025. See [official docs](https://www.openshot.org/user-guide/) for updates.*
