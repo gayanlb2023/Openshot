@@ -1,3 +1,10 @@
-title: OpenShot Guide by gayanlb2023
-description: Simple tutorials for OpenShot video editor
-theme: minima
+#title: OpenShot Guide by gayanlb2023
+#description: Simple tutorials for OpenShot video editor
+#theme: minima
+
+title: OpenShot Guide
+description: Learn OpenShot with Material Design
+theme: jekyll-theme-materialize
+remote_theme: zivhub/jekyll-theme-materialize
+baseurl: "/Openshot"
+url: "https://gayanlb2023.github.io"
