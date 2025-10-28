@@ -1,6 +1,6 @@
 title: OpenShot OpenShot
 description: Open Source Video Guides
-theme: minima  # Or 'jekyll-theme-cayman' for a clean look
+# theme: minima  # Or 'jekyll-theme-cayman' for a clean look
 
 site_name: Openshot
 theme:
