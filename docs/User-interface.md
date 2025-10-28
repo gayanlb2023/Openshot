@@ -4,6 +4,8 @@ title: 2. User Interface Overview
 permalink: /user-interface-overview/
 ---
 
+{% include nav.html %}
+
 # 2. User Interface Overview
 
 Once you launch **OpenShot**, here's what you'll see:
