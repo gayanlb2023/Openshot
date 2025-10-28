@@ -2,7 +2,7 @@
 layout: page
 title: OpenShot Guide
 ---
-{% include nav.html %}
+
 
 
 
