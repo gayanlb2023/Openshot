@@ -1,15 +1,7 @@
 ---
-<!--layout: default -->
-<!--title: 2. User Interface Overview -->
-
+layout: default
+title: UI Overview
 ---
-layout: page
-title: Page Title
----
-permalink: /user-interface-overview/
----
-
-{% include nav.html %}
 
 # 2. User Interface Overview
 
