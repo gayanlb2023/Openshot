@@ -1,6 +1,11 @@
 ---
-layout: default
-title: 2. User Interface Overview
+<!--layout: default -->
+<!--title: 2. User Interface Overview -->
+
+---
+layout: page
+title: Page Title
+---
 permalink: /user-interface-overview/
 ---
 
