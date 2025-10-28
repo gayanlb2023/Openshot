@@ -1,6 +1,6 @@
 ---
-layout: page
-title: OpenShot Guide
+layout: default
+title: UI Overview
 ---
 
 
