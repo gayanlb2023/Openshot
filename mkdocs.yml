@@ -1,0 +1,10 @@
+
+site_name: Openshot
+theme:
+  name: material  # optional
+nav:
+  - Home: index.md
+  - User-interface: User-interface.md
+  - Converting Video: Converting-Video.md
+  - Adjusting Settings: Adjusting-Settings.md
+  - Troubleshooting: Troubleshooting.md
