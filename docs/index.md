@@ -2,6 +2,9 @@
 layout: default
 title: OpenShot Guide
 ---
+{% include nav.html %}
+
+
 
 
 ## What’s OpenShot? 
